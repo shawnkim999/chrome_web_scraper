@@ -1,3 +1,4 @@
 document.getElementById('btn').addEventListener('click', function() {
-    alert('Button clicked!');
+  const allHTMLTags = document.getElementsByTagName('*')
+  console.log(allHTMLTags)
 });
